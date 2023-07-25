@@ -33,7 +33,7 @@ def rightTriangle(n):
 def main():
     t = getTInput()
     for i in range(t):
-        print("case #"+ str(i+1) + ":", end="")
+        print("Case #"+ str(i+1) + ":", end="")
         n = getNInput()
         rightTriangle(n)
     
